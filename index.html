@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for Atheon Mark, a Chrome extension for customizable webpage text highlighting." />
+  <title>Atheon Mark — Privacy Policy</title>
+  <style>
+    :root {
+      --orange: #ff6600;
+      --ink: #171717;
+      --muted: #666b73;
+      --line: #e6e7e9;
+      --paper: #ffffff;
+      --soft: #fff8f2;
+      --chip: #f5f6f7;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { width: min(920px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #fff 0%, #fffaf6 100%);
+    }
+    .hero { padding: 64px 0 46px; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      font-size: 22px;
+    }
+    .mark {
+      width: 34px;
+      height: 34px;
+      border: 2px solid var(--ink);
+      border-radius: 9px;
+      position: relative;
+      background: #fff;
+    }
+    .mark::before {
+      content: "A";
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 1;
+    }
+    .mark::after {
+      content: "";
+      position: absolute;
+      left: 4px;
+      right: 4px;
+      top: 16px;
+      height: 5px;
+      border-radius: 999px;
+      background: var(--orange);
+    }
+    h1 {
+      margin: 28px 0 10px;
+      font-size: clamp(38px, 6vw, 62px);
+      line-height: 1.02;
+      letter-spacing: -0.055em;
+    }
+    .subtitle { margin: 0; color: var(--muted); font-size: 18px; max-width: 680px; }
+    .meta { margin-top: 18px; font-size: 14px; color: var(--muted); }
+    .lang-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 26px; }
+    .lang-nav a {
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 9px 14px;
+      border-radius: 999px;
+      font-weight: 650;
+      font-size: 14px;
+    }
+    .lang-nav a:hover { border-color: var(--orange); }
+    main { padding: 42px 0 72px; }
+    section.language { scroll-margin-top: 24px; }
+    section.language + section.language { margin-top: 68px; padding-top: 54px; border-top: 1px solid var(--line); }
+    h2 { font-size: 30px; letter-spacing: -0.035em; margin: 0 0 10px; }
+    h3 { font-size: 20px; margin: 32px 0 8px; letter-spacing: -0.02em; }
+    p, li { font-size: 16px; }
+    ul { padding-left: 22px; }
+    .summary {
+      margin: 22px 0 30px;
+      background: var(--soft);
+      border: 1px solid #ffd9bf;
+      border-left: 4px solid var(--orange);
+      border-radius: 14px;
+      padding: 20px 22px;
+    }
+    .summary strong { display: block; margin-bottom: 5px; }
+    .note {
+      background: var(--chip);
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: #3f4349;
+      font-size: 15px;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a { color: #b84a00; }
+    @media (max-width: 600px) {
+      .wrap { width: min(100% - 28px, 920px); }
+      .hero { padding: 44px 0 34px; }
+      main { padding-top: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div class="brand"><span class="mark" aria-hidden="true"></span><span>Atheon Mark</span></div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Atheon Mark is designed to highlight text on webpages without turning your reading into a data collection product.</p>
+      <p class="meta"><strong>Last updated:</strong> September 19, 2026</p>
+      <nav class="lang-nav" aria-label="Language navigation">
+        <a href="#english">English</a>
+        <a href="#chinese">简体中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="english" class="language" lang="en">
+      <h2>English</h2>
+      <div class="summary">
+        <strong>Short version</strong>
+        Atheon Mark accesses webpage content only to provide its highlighting features. Highlighted text and webpage content are processed in the browser and are not sent to the developer or third parties. Atheon Mark does not sell user data and does not use advertising or third-party analytics trackers.
+      </div>
+
+      <h3>1. Scope</h3>
+      <p>This Privacy Policy applies to the Atheon Mark Chrome extension and explains what information the extension accesses, why it is needed, how it is handled, and what is not collected.</p>
+
+      <h3>2. Website content</h3>
+      <p>Atheon Mark needs access to webpage content so it can perform the functions requested by the user, including:</p>
+      <ul>
+        <li>detecting selected text;</li>
+        <li>previewing, applying, changing, and removing highlights;</li>
+        <li>displaying the floating toolbar on webpages;</li>
+        <li>supporting highlight actions inside webpage frames where applicable.</li>
+      </ul>
+      <p>Website content and highlighted text are processed in the user's browser for these functions. Atheon Mark does not transmit highlighted text or webpage content to the developer or to third parties.</p>
+
+      <h3>3. Extension settings</h3>
+      <p>Atheon Mark stores extension preferences using Chrome's extension storage. These preferences may include highlight styles, colors, text colors, opacity, profile order, shortcut preferences, language, theme, Text height mode, floating-toolbar settings, and other extension configuration.</p>
+      <p>These settings are used only to provide and remember the user's chosen Atheon Mark experience. They are not sent to an Atheon Mark server.</p>
+
+      <h3>4. Data Atheon Mark does not collect</h3>
+      <p>Atheon Mark does not collect or create a developer-side database of:</p>
+      <ul>
+        <li>personally identifiable information such as names, email addresses, postal addresses, or identification numbers;</li>
+        <li>health information;</li>
+        <li>financial or payment information;</li>
+        <li>authentication information such as passwords or credentials;</li>
+        <li>personal communications;</li>
+        <li>precise or approximate location data;</li>
+        <li>web browsing history;</li>
+        <li>behavioral analytics, advertising profiles, or cross-site tracking data.</li>
+      </ul>
+
+      <h3>5. Analytics, advertising, and third parties</h3>
+      <p>Atheon Mark does not use advertising trackers or third-party analytics trackers. Atheon Mark does not sell user data and does not transfer user data to third parties for advertising, profiling, creditworthiness, lending, or unrelated purposes.</p>
+
+      <h3>6. Remote servers and accounts</h3>
+      <p>No Atheon Mark account is required to use the extension. The extension does not require an Atheon Mark backend service in order to provide its core highlighting functionality.</p>
+
+      <h3>7. Data retention and deletion</h3>
+      <p>Atheon Mark does not maintain a developer-controlled server database of highlighted webpage content. Extension preferences remain in Chrome's extension storage until they are changed, reset, removed by the user, or removed as part of uninstalling/clearing extension data through Chrome.</p>
+
+      <h3>8. Changes to this policy</h3>
+      <p>If Atheon Mark's data practices materially change, this Privacy Policy will be updated before or together with the relevant product update, and the “Last updated” date above will be revised.</p>
+
+      <h3>9. Contact</h3>
+      <p>Questions about this Privacy Policy can be submitted through the support/contact channel shown on Atheon Mark's Chrome Web Store listing.</p>
+
+      <p class="note">This page describes Atheon Mark's own data practices. Chrome itself may process extension installation, account, synchronization, or store-related information under Google's own terms and privacy policies.</p>
+    </section>
+
+    <section id="chinese" class="language" lang="zh-CN">
+      <h2>简体中文</h2>
+      <div class="summary">
+        <strong>简要说明</strong>
+        Atheon Mark 仅为了实现网页文字高亮功能而访问网页内容。被高亮的文字和网页内容只在浏览器中处理，不会发送给开发者或第三方。Atheon Mark 不出售用户数据，也不使用广告追踪器或第三方分析追踪器。
+      </div>
+
+      <h3>1. 适用范围</h3>
+      <p>本隐私政策适用于 Atheon Mark Chrome 扩展，用于说明扩展会访问哪些信息、为什么需要这些信息、这些信息如何被处理，以及哪些信息不会被收集。</p>
+
+      <h3>2. 网页内容</h3>
+      <p>为了执行用户主动请求的高亮功能，Atheon Mark 需要访问网页内容，包括：</p>
+      <ul>
+        <li>识别用户选中的文字；</li>
+        <li>预览、添加、更改和移除高亮；</li>
+        <li>在网页中显示悬浮工具栏；</li>
+        <li>在适用情况下支持网页 frame / iframe 内的高亮操作。</li>
+      </ul>
+      <p>网页内容和被高亮的文字仅在用户浏览器中为了上述功能而处理。Atheon Mark 不会把高亮文字或网页内容传输给开发者或第三方。</p>
+
+      <h3>3. 扩展设置</h3>
+      <p>Atheon Mark 使用 Chrome 的扩展存储来保存用户设置。这些设置可能包括高亮样式、背景颜色、文字颜色、透明度、样式顺序、快捷键偏好、语言、主题、Text height 模式、悬浮工具栏设置以及其他扩展配置。</p>
+      <p>这些设置仅用于提供并记住用户选择的 Atheon Mark 使用体验，不会发送到 Atheon Mark 的服务器。</p>
+
+      <h3>4. Atheon Mark 不收集的数据</h3>
+      <p>Atheon Mark 不会收集或建立由开发者控制的以下数据数据库：</p>
+      <ul>
+        <li>姓名、邮箱、地址、身份证明号码等个人身份信息；</li>
+        <li>健康信息；</li>
+        <li>金融或支付信息；</li>
+        <li>密码、登录凭据等身份验证信息；</li>
+        <li>私人通信内容；</li>
+        <li>精确或大致位置信息；</li>
+        <li>网页浏览历史；</li>
+        <li>行为分析、广告画像或跨站追踪数据。</li>
+      </ul>
+
+      <h3>5. 分析、广告与第三方</h3>
+      <p>Atheon Mark 不使用广告追踪器或第三方分析追踪器，不出售用户数据，也不会为了广告、用户画像、信用评估、借贷或与扩展单一用途无关的目的向第三方转移用户数据。</p>
+
+      <h3>6. 远程服务器与账号</h3>
+      <p>使用 Atheon Mark 不需要注册 Atheon Mark 账号。扩展的核心高亮功能不依赖 Atheon Mark 的后端服务器。</p>
+
+      <h3>7. 数据保留与删除</h3>
+      <p>Atheon Mark 不会在开发者控制的服务器上建立高亮网页内容数据库。扩展设置会保留在 Chrome 的扩展存储中，直到用户修改、重置、删除这些设置，或通过卸载扩展/清除扩展数据的方式移除。</p>
+
+      <h3>8. 本政策的变更</h3>
+      <p>如果 Atheon Mark 的数据处理方式发生重大变化，本隐私政策会在相关产品更新之前或同时更新，并修改页面顶部的“最后更新”日期。</p>
+
+      <h3>9. 联系方式</h3>
+      <p>如对本隐私政策有疑问，可通过 Atheon Mark Chrome Web Store 商店页面中显示的支持/联系渠道提交。</p>
+
+      <p class="note">本页面说明的是 Atheon Mark 自身的数据处理方式。Chrome 可能会依据 Google 自身的条款和隐私政策处理扩展安装、账号、同步或商店相关信息。</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Atheon Mark · Mark what matters.</div>
+  </footer>
+</body>
+</html>
